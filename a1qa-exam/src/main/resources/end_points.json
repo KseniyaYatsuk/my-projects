@@ -1,0 +1,7 @@
+{
+  "getToken": "token/get",
+  "getTestsListJson": "test/get/json",
+  "putTest": "test/put",
+  "putAttachment": "test/put/attachment",
+  "putLog": "test/put/log"
+}

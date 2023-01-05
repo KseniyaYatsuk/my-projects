@@ -1,0 +1,12 @@
+{
+  "project": "Nexage",
+  "newProject": "Some_project",
+  "numberOfVariant": 2,
+  "projectId": 1,
+  "SID": "sid",
+  "testName": "some_test",
+  "methodName": "some_method",
+  "startTime": "2022/05/12 00:00:01",
+  "browser": "chrome",
+  "filePath": "src/main/resources/logs.log"
+}

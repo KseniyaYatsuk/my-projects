@@ -1,0 +1,6 @@
+{
+  "className": "com.mysql.cj.jdbc.Driver",
+  "url": "jdbc:mysql://127.0.0.1:3306/union_reporting?autoReconnect=true&useSSL=false",
+  "login": "root",
+  "password": "Spagtrgul123)"
+}

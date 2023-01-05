@@ -1,0 +1,14 @@
+{
+  "variant": "variant=",
+  "projectId": "projectId=",
+  "SID": "SID=",
+  "projectName": "projectName=",
+  "testName": "testName=",
+  "methodName": "methodName=",
+  "env": "env=",
+  "startTime": "startTime=",
+  "browser": "browser=",
+  "testId": "testId=",
+  "contentType": "contentType=",
+  "content": "content="
+}

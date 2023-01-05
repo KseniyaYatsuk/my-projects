@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:8081/web/",
+  "authorizationUrl": "http://login:password@localhost:8081/web/",
+  "basePath": "http://localhost:8081/api/%s"
+}

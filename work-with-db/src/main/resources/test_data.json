@@ -1,0 +1,6 @@
+{
+  "RequestOne": "SELECT project.name AS PROJECT, test.name AS TEST, MIN(test.end_time - test.start_time) AS MIN_WORKING_TIME FROM test JOIN project ON test.project_id = project.id GROUP BY project.name, test.name ORDER BY project.name, test.name",
+  "RequestTwo": "SELECT project.name AS PROJECT, COUNT(DISTINCT test.name) AS TEST_COUNT FROM test JOIN project ON test.project_id = project.id GROUP BY project.name",
+  "RequestThree": "SELECT project.name AS PROJECT, test.name AS TEST, test.start_time AS DATE FROM test JOIN project ON test.project_id = project.id WHERE test.start_time > 2015-11-7 ORDER BY project.name, test.name",
+  "RequestFour": "(SELECT COUNT(browser) AS BROWSERS FROM test WHERE browser LIKE 'chrome') UNION (SELECT COUNT(browser) AS BROWSERS FROM test WHERE browser LIKE 'firefox')"
+}
